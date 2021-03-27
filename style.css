@@ -30,6 +30,10 @@ body {
 
 }
 
+.add-form {
+    display: inline-table;
+}
+
 .main-page {
     display: block;
     width: 400px;
@@ -109,7 +113,7 @@ label[for="new-task"] {
     width: 318px;
 }
 
-form button:hover {
+.add-form button:hover {
     color: #0fc57c;
 }
 
@@ -122,6 +126,7 @@ li {
 
 li * {
     vertical-align: middle;
+    box-sizing: border-box;
 }
 
 li input[type="checkbox"] {

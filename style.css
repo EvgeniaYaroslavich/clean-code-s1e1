@@ -109,7 +109,7 @@ label[for="new-task"] {
     width: 318px;
 }
 
-p button:hover {
+form button:hover {
     color: #0fc57c;
 }
 
